@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.1" type="library" method="upgrade">
+   <name>Shopify Framework</name>
+   <libraryname>shopify</libraryname>
+   <author>TemPlaza</author>
+   <creationDate>May 2021</creationDate>
+   <version>1.0.0</version>
+   <url>https://www.templaza.com</url>
+   <copyright>Copyright (C) 2021 TemPlaza, Jsc. All rights reserved.</copyright>
+   <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+   <authorEmail>info@templaza.com</authorEmail>
+   <authorUrl>https://www.templaza.com</authorUrl>
+   <description>Shopify Framework by TemPlaza</description>
+   <scriptfile>script.php</scriptfile>
+   <files>
+      <folder>framework</folder>
+      <file>script.php</file>
+   </files>
+   <languages folder="language/en-GB">
+      <language tag="en-GB">en-GB.shopify.ini</language>
+      <language tag="en-GB">en-GB.shopify.sys.ini</language>
+   </languages>
+</extension>
